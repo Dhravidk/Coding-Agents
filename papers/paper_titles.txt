@@ -1,0 +1,39 @@
+SWE-bench: Can Language Models Resolve Real-World GitHub Issues?
+SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering
+Demystifying LLM-Based Software Engineering Agents
+SWE-bench Goes Live!
+Terminal-Bench 2.0: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces
+CodeMonkeys: Scaling Test-Time Compute for Software Engineering
+Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute
+Co-PatcheR: Collaborative Software Patching with Component(s)-specific Small Reasoning Models
+Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?
+Repo2Run: Automated Building Executable Environments for Code Repository at Scale
+SWE-Gym: Training Software Engineering Agents and Verifiers with SWE-Gym
+Prometheus: Towards Long-Horizon Codebase Navigation for Repository-Level Problem Solving
+ContextBench: A Benchmark for Context Retrieval in Coding Agents
+ACON: Optimizing Context Compression for Long-horizon LLM Agents
+SABER: Small Actions, Big Errors
+CoMem: Context Management with a Decoupled Long-Term Memory
+SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios
+The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason
+Saving SWE-Bench: A Benchmark Mutation Approach for Realistic Agent Evaluation
+ABTest: Behavior-Driven Testing for AI Coding Agents
+c-CRAB: Code Review Agent Benchmark
+From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level
+SWE-Bench-CL: Continual Learning for Coding Agents
+EXPEREPAIR: Dual-Memory Enhanced LLM-based Repository-Level Program Repair
+SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning
+SWE-PolyBench
+FEA-Bench
+More with Less: An Empirical Study of Turn-Control Strategies for Efficient Coding Agents
+SWE-Effi: Re-Evaluating Software AI Agent System Effectiveness Under Resource Constraints
+Dissecting the SWE-Bench Leaderboards
+Otter: Generating Tests from Issues to Validate SWE Patches
+Heterogeneous Prompting and Execution Feedback for SWE Issue Test Generation and Selection
+Agentic Harness for Real-World Compilers
+ReAct
+OpenHands
+SEAlign: Alignment Training for Software Engineering Agents
+ToolTrain: Enhancing Issue Localization Agent with Tool-Interactive Training
+RepoReason: Benchmarking Agentic Code Reasoning at the Repository Level
+SWE-bench
