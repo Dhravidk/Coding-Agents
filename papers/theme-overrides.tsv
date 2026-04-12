@@ -1,0 +1,40 @@
+#title	themes	note
+SWE-bench: Can Language Models Resolve Real-World GitHub Issues?	evaluation|benchmark|repo-resolution	Foundational SWE benchmark and baseline for issue-resolving
+SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering	harness|tooling|repo-interaction	Classic coding-agent interface/workflow design
+Demystifying LLM-Based Software Engineering Agents	harness|evaluation|workflow-disentangling	Workflow ablation baseline
+SWE-bench Goes Live!	evaluation|benchmark-realtime	Benchmark freshness / benchmark drift
+Terminal-Bench 2.0: Benchmarking Agents on Hard, Realistic Tasks in Command Line Interfaces	evaluation|terminal-tools|harness	CLI workflow benchmark design
+CodeMonkeys: Scaling Test-Time Compute for Software Engineering	search-compute|verification|efficiency	Test-time compute and trajectory selection
+Thinking Longer, Not Larger: Enhancing Software Engineering Agents via Scaling Test-Time Compute	search-compute|verification	Search/computation scaling patterns
+Co-PatcheR: Collaborative Software Patching with Component(s)-specific Small Reasoning Models	harness|multi-agent|verification	Specialized sub-agent modules for patching
+Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly?	harness|self-modification	Runtime scaffold evolution
+Repo2Run: Automated Building Executable Environments for Code Repository at Scale	env-automation|harness	Sandbox/build reproducibility
+SWE-Gym: Training Software Engineering Agents and Verifiers with SWE-Gym	training|evaluation|verification	Train+verifier loop for SWE tasks
+Prometheus: Towards Long-Horizon Codebase Navigation for Repository-Level Problem Solving	long-horizon|memory|retrieval	Knowledge-graph navigation and working-memory
+ContextBench: A Benchmark for Context Retrieval in Coding Agents	retrieval|evaluation|diagnostics	Retrieval quality and usage metrics
+ACON: Optimizing Context Compression for Long-horizon LLM Agents	memory|compaction|efficiency	Context compression experiments
+SABER: Small Actions, Big Errors	safety|verification|execution	Action-level safety and failure prevention
+CoMem: Context Management with a Decoupled Long-Term Memory	memory|compaction	Decoupled memory architecture
+SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios	long-horizon|evaluation|planning	Repo evolution stress test
+The SWE-Bench Illusion: When State-of-the-Art LLMs Remember Instead of Reason	evaluation|credibility|contamination	Leaderboard realism diagnostics
+Saving SWE-Bench: A Benchmark Mutation Approach for Realistic Agent Evaluation	evaluation|benchmark-reality	Mutation-based realism correction
+ABTest: Behavior-Driven Testing for AI Coding Agents	verification|robustness	Behavioral fuzzing and anomaly tests
+c-CRAB: Code Review Agent Benchmark	evaluation|review|verification	Code review workflow evaluation
+From Laboratory to Real-World Applications: Benchmarking Agentic Code Reasoning at the Repository Level	evaluation|reasoning|diagnostics	Repo reasoning diagnostic benchmark design
+SWE-Bench-CL: Continual Learning for Coding Agents	memory|continual-learning	distribution shift and persistence
+EXPEREPAIR: Dual-Memory Enhanced LLM-based Repository-Level Program Repair	memory|repair|long-horizon	Dual-memory SWE patching
+SWE-Spot: Building Small Repo-Experts with Repository-Centric Learning	harness|specialization|evaluation	Repo-adaptive expert pattern
+SWE-PolyBench	evaluation|multilingual-repos	Repo-level multilingual benchmark
+FEA-Bench	evaluation|feature-engineering	Feature-implementation benchmark
+More with Less: An Empirical Study of Turn-Control Strategies for Efficient Coding Agents	resource-planning|efficiency	Turn-budget controls
+SWE-Effi: Re-Evaluating Software AI Agent System Effectiveness Under Resource Constraints	resource-planning|evaluation	Effectiveness under budget
+Dissecting the SWE-Bench Leaderboards	evaluation|meta-analysis	Leaderboard audit and methodology
+Otter: Generating Tests from Issues to Validate SWE Patches	test-generation|verification	test-first generation and selection
+Heterogeneous Prompting and Execution Feedback for SWE Issue Test Generation and Selection	test-generation|verification|search-compute	Test-generation prompting and feedback
+Agentic Harness for Real-World Compilers	bench-harness|specialized-domain	Compiler-specific benchmark harness
+ReAct	harness|reason-action	history baseline for thought-action loop
+OpenHands	harness|open-source-system	Open-source coding-agent runtime
+SEAlign: Alignment Training for Software Engineering Agents	training|alignment	Alignment-focused agent training
+ToolTrain: Enhancing Issue Localization Agent with Tool-Interactive Training	tooling|training	Tool-usage training
+RepoReason: Benchmarking Agentic Code Reasoning at the Repository Level	evaluation|reasoning|diagnostics	White-box repo reasoning benchmark
+SWE-bench	alias	Duplicate canonical benchmark label

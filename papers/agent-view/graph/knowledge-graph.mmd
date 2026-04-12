@@ -1,0 +1,48 @@
+flowchart LR
+  P((Paper Corpus)) --> B[Benchmarks]
+  P --> H[Harnesses]
+  P --> M[Memory/Context]
+  P --> R[Retrieval]
+  P --> V[Verification]
+  P --> L[Long-Horizon]
+
+  B --> T1[SWE-bench]
+  B --> T2[Terminal-Bench]
+  B --> T3[SWE-EVO]
+  B --> T4[Benchmark Realism: SWE-Bench Goes Live! / Saving SWE-Bench]
+
+  H --> H1[SWE-agent]
+  H --> H2[Co-PatcheR]
+  H --> H3[Repo2Run]
+  H --> H4[Agentic Harness]
+
+  M --> M1[Prometheus]
+  M --> M2[ACON]
+  M --> M3[CoMem]
+  M --> M4[EXPEREPAIR]
+
+  R --> R1[ContextBench]
+  R --> R2[SWE-Spot]
+  R --> R3[From-Lab-to-World / RepoReason]
+
+  V --> V1[CodeMonkeys]
+  V --> V2[Thinking Longer]
+  V --> V3[SABER]
+  V --> V4[Otter]
+
+  L --> L1[SWE-EVO]
+  L --> L2[Prometheus]
+  L --> L3[Live-SWE-agent]
+
+  subgraph "How systems improve"
+    E[Execution checks] --> B
+    E --> V
+    C[Compaction]
+    C --> M
+    C --> R
+    W[Weakness controls]
+    W --> B
+    W --> H
+  end
+
+  classDef paper fill:#f4f6ff,stroke:#445,stroke-width:1px;

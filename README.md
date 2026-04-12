@@ -16,6 +16,11 @@ The repository is organized so multiple coding agents can work in parallel witho
   - `notes.md` — collective evidence notes and hypotheses.
 - `scripts/`
   - `fetch_papers.sh` — idempotent fetch/update script for arXiv-first harvesting and manifest updates.
+  - `build_agent_index.sh` — builds compact, agent-friendly catalogs from manifest and theme mappings.
+- `papers/`
+  - `catalog.jsonl` — machine-readable paper catalog for narrow-context agent reads.
+  - `theme-overrides.tsv` — curated per-paper theme tags.
+  - `agent-view/` — directory map for multi-agent context routing.
 
 ## How coding agents should work in this repo
 
@@ -68,3 +73,13 @@ All work should be committed frequently:
 3. Confirm status in `papers/papers-manifest.csv`.
 4. If `not_found_on_arxiv`, add the target venue/URL as a follow-up in `unresolved.txt`.
 5. Document what was verified (or failed) in `papers/notes.md` if this is an evidence-bearing update.
+
+## Fast path for multiple agents
+
+Use this read order before editing:
+
+1. `papers/agent-view/README.md` (tree + navigation)
+2. `papers/catalog.jsonl` (compact metadata)
+3. Exactly one file in `papers/agent-view/topics/`
+
+Avoid loading `papers/papers-manifest.csv` unless needed for raw ingestion debugging.

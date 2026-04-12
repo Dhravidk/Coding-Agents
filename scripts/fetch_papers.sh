@@ -164,3 +164,5 @@ while IFS= read -r title; do
  done < "$LIST_FILE"
 
 echo "Done.\nManifest: $MANIFEST\nUnresolved: $UNRESOLVED\nPDF directory: $PDF_DIR" 
+echo "Refreshing compact catalog: $ROOT_DIR/papers/catalog.jsonl"
+bash "$ROOT_DIR/scripts/build_agent_index.sh"
