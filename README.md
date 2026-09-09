@@ -1,26 +1,42 @@
-# Coding Agent Papers
+# Coding-Agent Research Library
 
-## Goal
+A structured literature workspace for coding-agent research, focused on 2025–2026 with selected earlier work. It keeps source PDFs, retrieval status, thematic indexes, and evidence notes together so a research question can be traced back to its sources.
 
-This repository is a structured research workspace for coding-agent literature (2025–2026 focus, with selective older work).  
-The repository is organized so multiple coding agents can work in parallel without conflicts, while keeping paper evidence and artifacts reproducible.
+[Paper catalog](papers/catalog.jsonl) · [Topic index](papers/agent-view/README.md) · [Evidence notes](papers/notes.md) · [Unresolved sources](papers/unresolved.txt)
 
-## Agent-first structure
+## Start with a research question
 
-- `papers/`
-  - `pdfs/` — archived PDFs downloaded for this repo.
-  - `paper_titles.txt` — canonical list of targeted paper titles.
-  - `papers-manifest.csv` — machine-readable status for every title (`found`, `failed`, `local_alias`, etc.).
-  - `unresolved.txt` — title-level backlog for manual follow-up or non-arXiv sources.
-  - `README.md` — operational guidance for paper-folder workflows.
-  - `notes.md` — collective evidence notes and hypotheses.
-- `scripts/`
-  - `fetch_papers.sh` — idempotent fetch/update script for arXiv-first harvesting and manifest updates.
-  - `build_agent_index.sh` — builds compact, agent-friendly catalogs from manifest and theme mappings.
-- `papers/`
-  - `catalog.jsonl` — machine-readable paper catalog for narrow-context agent reads.
-  - `theme-overrides.tsv` — curated per-paper theme tags.
-  - `agent-view/` — directory map for multi-agent context routing.
+1. Read the [topic map](papers/agent-view/README.md).
+2. Select the relevant topic and inspect its entries in `papers/catalog.jsonl`.
+3. Read the original paper before adding a claim to `papers/notes.md`.
+4. Use `papers/papers-manifest.csv` when you need retrieval status or source provenance.
+
+This public repository is a literature and evidence workspace. A paper's presence in the catalog does not mean its results have been reproduced, and this checkout does not contain the newer local benchmark implementation suites.
+
+## Repository map
+
+| Location | Purpose |
+| --- | --- |
+| `papers/pdfs/` | Archived source PDFs |
+| `papers/paper_titles.txt` | Targeted paper titles |
+| `papers/papers-manifest.csv` | Machine-readable retrieval status |
+| `papers/catalog.jsonl` | Compact paper catalog |
+| `papers/theme-overrides.tsv` | Curated topic assignments |
+| `papers/agent-view/` | Topic-based navigation |
+| `papers/notes.md` | Evidence notes and hypotheses |
+| `papers/unresolved.txt` | Sources needing manual follow-up |
+| `scripts/fetch_papers.sh` | ArXiv-first source retrieval and manifest updates |
+| `scripts/build_agent_index.sh` | Catalog and navigation generation |
+
+## Add or refresh sources
+
+```bash
+# Add the target title to papers/paper_titles.txt, then:
+bash scripts/fetch_papers.sh
+bash scripts/build_agent_index.sh
+```
+
+Inspect the manifest and unresolved-source list after retrieval. Record the source, what was verified, and the limits of the interpretation in the evidence notes. See [paper-folder guidance](papers/README.md) before changing the archive.
 
 ## How coding agents should work in this repo
 
